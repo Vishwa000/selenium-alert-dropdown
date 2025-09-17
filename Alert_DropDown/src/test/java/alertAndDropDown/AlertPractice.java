@@ -50,6 +50,9 @@ public class AlertPractice {
 		Alert alert3 = browser.switchTo().alert();
 //		clickPopUp.sendKeys("Hello world");
 		alert3.sendKeys("Vichu");
+
+		System.out.println(alert3.getText());
+
 		alert3.accept();
 
 		Thread.sleep(5000);
